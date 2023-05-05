@@ -29,9 +29,11 @@ GPU Cuda optimization
 All cuda related code is in the file GPU_Gaussian_elimination.cu. This is a separately completed file including baseline code. 
 To run this code in linux, you need use following code:
 
+```shell
  module load cuda/ 10.0 
 -arch compute_70 -code sm_70 GPU_Gaussian_elimination.cu -o GPU_Gaussian_elimination
 ./GPU_Gaussian_elimination
+```
 
 Make sure to use corresponding compile parameters.
 
