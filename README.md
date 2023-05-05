@@ -1,4 +1,4 @@
-# gaussian-elimination-optimization
+# Gaussian Elimination Optimization
 ### Group Member: Renyu Jiang, Yimin Xu, Mingda Li
 
 ## Description
