@@ -11,10 +11,12 @@ To optimize gaussian elimination, we propose three optimization ideas: AVX instr
 The shell codes to compile and run these codes are not complicated, basically gcc instructions plus some parameters.
 AVX optimization
 To compile and run avx.c, use the following command:
+
 ```shell
 gcc -O1 -mavx -std=gnu99 avx.c -lm -lrt -o avx
 ./avx
 ```
+
 Multi-thread optimization and AVX optimization in threads
 Multi-thread with AVX optimization code is in file multi_threads.c, to compile and run it, use following code: 
 ```shell
